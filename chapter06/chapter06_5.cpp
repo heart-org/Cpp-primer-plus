@@ -30,7 +30,7 @@ int main(){
             tax = 1000 + (wage - 15000) * 0.15;
             cout << tax << endl;
         }else{
-
+            cout<<1;
         }
 
 
