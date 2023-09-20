@@ -22,3 +22,4 @@ endforeach ()
 #头文件bs
 #格式化：ctrl+alt+l
 #替换选中：ctrl+r
+#打开push:ctrl+shift+k

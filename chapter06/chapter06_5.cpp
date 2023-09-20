@@ -19,7 +19,7 @@ int main(){
     int tax = 0;
     cout << "Please enter your wages: " << endl;
     cin >> wage;
-    while (wage){
+    if( wage > 0 ){
         if (wage <= 5000)
             cout << " No Tax " << endl;
         else if ((wage > 5000) && (wage <= 15000)){
@@ -30,13 +30,12 @@ int main(){
             tax = 1000 + (wage - 15000) * 0.15;
             cout << tax << endl;
         }else{
-            cout<<1;
+            tax = 4000 + (wage - 35000) * 0.15;
+            cout << tax << endl;
         }
-
-
-
-
     }
+    else
+        cout << "you entered an error format" << endl;
 
 
     return 0;
